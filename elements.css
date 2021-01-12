@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    opacity: 0.75;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li button{
+    background-color: #4387fd;
+    border: 1px solid #4387fd;
+    outline: none;
+    
+}
+
