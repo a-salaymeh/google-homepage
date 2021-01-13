@@ -1,9 +1,9 @@
-ul {
+.navBar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: white;
 }
 
 li {
@@ -21,9 +21,78 @@ li a{
 }
 
 li button{
+    display:  block;
     background-color: #4387fd;
     border: 1px solid #4387fd;
     outline: none;
+    font-style: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: white;    
+}
+
+
+button {
+    background-color: none;
+    color: gray;
+    border: none;
+    padding: 7px 32px ;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+}
+button:hover{
+    background-color: white;
     
 }
 
+
+
+.Search {
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+}
+.Search input{
+    margin-top: 25px;
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    opacity: 25%;
+    
+
+}
+
+.Search image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.buton1{
+    margin-top: 10px;
+}
+#inputButton{
+    display: inline;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.footer ul{
+    list-style-type: none;
+}
+
+.footer a{
+    color: black;
+}
